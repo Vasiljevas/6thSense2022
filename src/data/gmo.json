@@ -1,0 +1,60 @@
+{
+  "info": {
+    "name": "GMO-NAME",
+    "desc": "GMO-DESC",
+    "descSimplified": "GMO-DESC-SIMPLIFIED",
+    "extra": {
+      "1": {
+        "name": "GMO-1-NAME",
+        "desc": "GMO-1-DESC"
+      },
+      "2": {
+        "name": "GMO-2-NAME",
+        "desc": "GMO-2-DESC"
+      },
+      "3": {
+        "name": "GMO-3-NAME",
+        "desc": "GMO-3-DESC"
+      },
+      "4": {
+        "name": "GMO-4-NAME",
+        "desc": "GMO-4-DESC"
+      },
+      "5": {
+        "name": "GMO-5-NAME",
+        "desc": "GMO-5-DESC"
+      },
+      "6": {
+        "name": "GMO-6-NAME",
+        "desc": "GMO-6-DESC"
+      }
+    },
+    "lt": {
+      "audioRec": "/recordings/lt/GMO.mp3",
+      "path": "/models/lt/GMO.glb"
+    },
+    "en": {
+      "audioRec": "/recordings/en/GMO.mp3",
+      "path": "/models/en/GMO.glb"
+    }
+  },
+  "model": {
+    "pattern": "/patterns/GMO.patt",
+    "pos": {
+      "x": -0.3,
+      "y": 0.75,
+      "z": 0
+    },
+    "rotAR": {
+      "x": -1.57,
+      "y": 1.57,
+      "z": 0
+    },
+    "rotNoAR": {
+      "x": 0,
+      "y": 1.57,
+      "z": 0
+    },
+    "scale": 0.3
+  }
+}

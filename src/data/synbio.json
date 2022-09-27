@@ -1,0 +1,56 @@
+{
+  "info": {
+    "name": "SYNBIO-NAME",
+    "desc": "SYNBIO-DESC",
+    "descSimplified": "SYNBIO-DESC-SIMPLIFIED",
+    "extra": {
+      "1": {
+        "name": "SYNBIO-1-NAME",
+        "desc": "SYNBIO-1-DESC"
+      },
+      "2": {
+        "name": "SYNBIO-2-NAME",
+        "desc": "SYNBIO-2-DESC"
+      },
+      "3": {
+        "name": "SYNBIO-3-NAME",
+        "desc": "SYNBIO-3-DESC"
+      },
+      "4": {
+        "name": "SYNBIO-4-NAME",
+        "desc": "SYNBIO-4-DESC"
+      },
+      "5": {
+        "name": "SYNBIO-5-NAME",
+        "desc": "SYNBIO-5-DESC"
+      }
+    },
+    "lt": {
+      "audioRec": "/recordings/lt/synbio.mp3",
+      "path": "/models/lt/synbio.glb"
+    },
+    "en": {
+      "audioRec": "/recordings/en/synbio.mp3",
+      "path": "/models/en/synbio.glb"
+    }
+  },
+  "model": {
+    "pattern": "/patterns/synbio.patt",
+    "pos": {
+      "x": -1,
+      "y": 0.4,
+      "z": 0
+    },
+    "rotAR": {
+      "x": -1.57,
+      "y": 1.57079,
+      "z": 0.3
+    },
+    "rotNoAR": {
+      "x": 0,
+      "y": 1.57079,
+      "z": 0.3
+    },
+    "scale": 0.4
+  }
+}

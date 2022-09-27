@@ -1,0 +1,44 @@
+{
+  "info": {
+    "name": "RNA-NAME",
+    "desc": "RNA-DESC",
+    "descSimplified": "RNA-DESC-SIMPLIFIED",
+    "extra": {
+      "1": {
+        "name": "RNA-1-NAME",
+        "desc": "RNA-1-DESC"
+      },
+      "2": {
+        "name": "RNA-2-NAME",
+        "desc": "RNA-2-DESC"
+      }
+    },
+    "lt": {
+      "audioRec": "/recordings/lt/RNA.mp3",
+      "path": "/models/lt/RNA.glb"
+    },
+    "en": {
+      "audioRec": "/recordings/en/RNA.mp3",
+      "path": "/models/en/RNA.glb"
+    }
+  },
+  "model": {
+    "pattern": "/patterns/RNA.patt",
+    "pos": {
+      "x": -0.1,
+      "y": 0.4,
+      "z": 0
+    },
+    "rotAR": {
+      "x": -1.57,
+      "y": -1.57,
+      "z": 0
+    },
+    "rotNoAR": {
+      "x": 0,
+      "y": -1.57,
+      "z": 0
+    },
+    "scale": 0.4
+  }
+}

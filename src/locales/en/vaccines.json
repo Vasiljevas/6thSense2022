@@ -1,0 +1,10 @@
+{
+  "VACCINES-NAME": "Vaccines",
+  "VACCINES-DESC": "We live in a world full of microorganisms and not all of them are friendly.  There are plenty of bacteria and viruses that can make us feel unwell and that's where vaccines can help us. A vaccine is a substance that builds up our immunity by raising an immune response of the body because it’s recognised as a specific pathogen.<br></br><br></br>On the left side of the model, you can see a COVID-19 <1>mRNA</1> vaccine. It is made up of synthetic <1>mRNA</1> that is responsible for SARS-CoV-2 virus antigen production and a <2>lipid bilayer</2> that protects genetic information. After vaccination, a person's cells begin to produce antigens - <3>spike proteins</3> that are encoded by <1>mRNA</1>. Since antigens are alien to our bodies, they raise an immune response specific to the virus.<br></br><br></br>On the right side of the model, a viral vector vaccine is shown. With some help from genetic engineering, a <3>protein spike</3> gene is inserted into a virus that is unable to reproduce. As a viral vector enters our body, it promotes the synthesis of viral <3>protein spikes</3>. Higher amounts of such protein promote an immune response.<br></br><br></br>We can compare vaccination with combat training - our immune system learns to recognize an enemy so that when it attacks, the body would overcome it faster and with fewer complications.",
+  "VACCINES-1-NAME": "mRNA",
+  "VACCINES-1-DESC": "mRNA - is a single-stranded, DNA-like molecule that encodes genetic information about a primary structure of a specific protein. This information is transferred from the cell nucleus to the cytoplasm where specific structures synthesise a protein.",
+  "VACCINES-2-NAME": "Lipid bilayer",
+  "VACCINES-2-DESC": "Lipid bilayer - is an oily bubble that wraps the <1>mRNA</1> in the vaccine and protects it from the enzymes in the human body.",
+  "VACCINES-3-NAME": "Spike protein",
+  "VACCINES-3-DESC": "Spike protein - a specific protein that is found on the surface of a virus. It allows the virus to get into targeted cells."
+}

@@ -1,0 +1,56 @@
+{
+  "list": [
+    {
+      "name": "SYNBIO-NAME",
+      "path": "/models/synbio"
+    },
+    {
+      "name": "DNA-NAME",
+      "path": "/models/dna"
+    },
+    {
+      "name": "RNA-NAME",
+      "path": "/models/rna"
+    },
+    {
+      "name": "CRISPR-NAME",
+      "path": "/models/crispr"
+    },
+    {
+      "name": "TRANSLATION-NAME",
+      "path": "/models/translation"
+    },
+    {
+      "name": "GMO-NAME",
+      "path": "/models/gmo"
+    },
+    {
+      "name": "VIRUS-NAME",
+      "path": "/models/virus"
+    },
+    {
+      "name": "ANTIBIOTIC-NAME",
+      "path": "/models/antibiotic"
+    },
+    {
+      "name": "VACCINES-NAME",
+      "path": "/models/vaccines"
+    },
+    {
+      "name": "BIOIT-NAME",
+      "path": "/models/bioit"
+    },
+    {
+      "name": "TRANSFORMATION-NAME",
+      "path": "/models/transformation"
+    },
+    {
+      "name": "GFP-NAME",
+      "path": "/models/gfpNew"
+    },
+    {
+      "name": "TRANSFORMATION-ELECTROPORATION-NAME-1",
+      "path": "/models/transformationElectroporation"
+    }
+  ]
+}

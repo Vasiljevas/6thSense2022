@@ -1,0 +1,197 @@
+.side-menu {
+  position: fixed;
+  z-index: 500;
+  top: 0;
+  left: -290px;
+  max-width: 290px;
+  width: 90%;
+  height: 100%;
+  background-image: url("../../../assets/sideMenuBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  -webkit-transform: translateX(-110%);
+  -ms-transform: translateX(-110%);
+  transform: translateX(-110%);
+  padding: 34px 25px 34px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.side-menu.open {
+  -webkit-transform: translateX(288px);
+  -ms-transform: translateX(288px);
+  transform: translateX(288px);
+}
+
+.side-menu .close-button {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.side-menu .button {
+  z-index: 502;
+  cursor: pointer;
+  outline: none;
+  width: 229px;
+  border-radius: 15px;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 10px #00000029;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  font-weight: 600;
+  margin-bottom: 20px;
+  -webkit-transform: translateY(41px);
+  -ms-transform: translateY(41px);
+  transform: translateY(41px);
+}
+
+.side-menu .button.up {
+  -webkit-transform: translateY(15px);
+  -ms-transform: translateY(15px);
+  transform: translateY(15px);
+}
+
+.side-menu .icon {
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 10%);
+  box-shadow: 0px 0px 10px #00000029;
+  border-radius: 15px;
+  margin: 0px 15px 0px 15px;
+}
+
+.side-menu .icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.side-menu .icon-group {
+  width: 229px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transform: translateY(41px);
+  -ms-transform: translateY(41px);
+  transform: translateY(41px);
+  margin-bottom: 50px;
+}
+
+.side-menu .button.down,
+.side-menu .icon-group.down {
+  -webkit-transform: translateY(167px);
+  -ms-transform: translateY(167px);
+  transform: translateY(167px);
+}
+
+.side-menu .logo {
+  cursor: pointer;
+  outline: none;
+}
+
+.side-menu .logo img {
+  width: 141.7px;
+  height: 90.3px;
+}
+
+.side-menu .list {
+  position: absolute;
+  top: 216px;
+  height: 131px;
+  width: 203px;
+  opacity: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-transform: translateX(-290px);
+  -ms-transform: translateX(-290px);
+  transform: translateX(-290px);
+  transition: transform 0s ease 0.25s, opacity 0.25s ease;
+  transition: -webkit-transform 0s ease 0.25s, opacity 0.25s ease;
+}
+
+.side-menu .list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.side-menu .list::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 100px;
+  height: 10px;
+}
+
+.side-menu .list::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+}
+
+.side-menu ul {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  list-style-position: outside;
+  padding-inline-start: 0px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.side-menu ul li {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.side-menu .bulletpoint {
+  width: 23px;
+  padding-right: 13px;
+}
+
+.side-menu ul li img {
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+
+.side-menu ul li .link {
+  cursor: pointer;
+  outline: none;
+  width: 175px;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+.side-menu .list.active {
+  transition: opacity 0.25s ease 0.15s;
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.side-menu .button,
+.side-menu .icon-group {
+  transition: transform 0.25s ease 0.15s;
+  transition: -webkit-transform 0.25s ease 0.15s;
+}
+
+.side-menu .button.up,
+.side-menu .button.down,
+.side-menu .icon-group.down {
+  transition: -webkit-transform 0.25s ease;
+  transition: transform 0.25s ease;
+}

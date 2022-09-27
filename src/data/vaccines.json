@@ -1,0 +1,48 @@
+{
+  "info": {
+    "name": "VACCINES-NAME",
+    "desc": "VACCINES-DESC",
+    "descSimplified": "VACCINES-DESC-SIMPLIFIED",
+    "extra": {
+      "1": {
+        "name": "VACCINES-1-NAME",
+        "desc": "VACCINES-1-DESC"
+      },
+      "2": {
+        "name": "VACCINES-2-NAME",
+        "desc": "VACCINES-2-DESC"
+      },
+      "3": {
+        "name": "VACCINES-3-NAME",
+        "desc": "VACCINES-3-DESC"
+      }
+    },
+    "lt": {
+      "audioRec": "/recordings/lt/vaccines.mp3",
+      "path": "/models/lt/vaccines.glb"
+    },
+    "en": {
+      "audioRec": "/recordings/en/vaccines.mp3",
+      "path": "/models/en/vaccines.glb"
+    }
+  },
+  "model": {
+    "pattern": "/patterns/vaccines.patt",
+    "pos": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "rotAR": {
+      "x": -1.57,
+      "y": 0,
+      "z": 0
+    },
+    "rotNoAR": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 1.25
+  }
+}

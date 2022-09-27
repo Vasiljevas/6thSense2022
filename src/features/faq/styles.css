@@ -1,0 +1,191 @@
+.faq {
+  overflow: hidden;
+  margin: 0;
+  height: 100%;
+  width: 101%;
+  position: fixed;
+  top: 0;
+  left: -2px;
+  padding-left: 13px;
+  padding-right: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (orientation: portrait) {
+  .faq {
+    background-image: url("../../assets/faqBackgroundPortrait.png");
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .faq {
+    background-image: url("../../assets/faqBackgroundLandscape.png");
+    background-size: 100% 100%;
+  }
+}
+
+.faq .color {
+  color: #b3e0F5;
+}
+
+.faq .subtitle {
+  color: #faccbf;
+  margin-bottom: 8px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+.faq .clickable {
+  cursor: pointer;
+}
+
+.faq .modal {
+  position: relative;
+  z-index: 100;
+  height: 100%;
+  border-radius: 35px;
+  box-shadow: 0px 0px 10px #00000029;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 45px 25px 25px 25px;
+  color: white;
+}
+
+.faq .modal-title {
+  margin-bottom: 27px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.faq .modal-content {
+  margin-bottom: 27px;
+  font-size: 15px;
+  line-height: 20px;
+  overflow-y: auto;
+  height: 100%;
+  padding: 0px 5px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  text-align: left;
+}
+
+.faq .modal-content::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+.faq .modal-content::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.65) !important;
+  border-radius: 100px !important;
+  height: 10px !important;
+}
+
+.faq .modal-content::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border-radius: 100px !important;
+}
+
+.faq .close-button {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  cursor: pointer;
+  outline: none;
+}
+
+.faq .modal-content > div {
+  margin-bottom: 22px;
+}
+
+.faq .instruction-graphic {
+  display: flex;
+  justify-content: center;
+}
+
+.faq .instruction-graphic-square {
+  display: flex;
+  justify-content: center;
+}
+
+.faq .instruction-graphic img {
+  width: 98px;
+  height: 185px;
+}
+
+.faq .instruction-graphic-square img {
+  width: 140px;
+  height: 110px;
+}
+
+.faq .pagination {
+  height: 100%;
+  width: 100%;
+  max-width: 560px;
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  grid-template-rows: 100%;
+  justify-items: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.faq .pagination-content {
+  max-height: 657px;
+  height: 90%;
+  grid-column: 2 / 2;
+}
+
+.faq .left-arrow {
+  grid-column: 1 / 1;
+  cursor: pointer;
+}
+
+.faq .right-arrow {
+  grid-column: 3 / 3;
+  cursor: pointer;
+}
+
+.faq .hidden {
+  display: none;
+}
+
+.faq .text-icon {
+  position: relative;
+  margin: 0px 2px 0px 2px;
+}
+
+.faq .text-icon img {
+  position: relative;
+  height: 17px;
+  width: 21px;
+}
+
+.faq .modal-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  align-items: center;
+  column-gap: 14px;
+  row-gap: 52px;
+}
+
+.faq .text-align-left {
+  text-align: left;
+}
+
+.faq .text-icon.long img {
+  position: relative;
+  height: 17px;
+  width: 74px;
+}
+
+.faq a {
+  text-decoration: none;
+  color: #faccbf;
+}

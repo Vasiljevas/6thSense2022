@@ -1,0 +1,34 @@
+{
+  "info": {
+    "name": "CIRCUIT-NAME",
+    "desc": "CIRCUIT-DESC",
+    "extra": {},
+    "lt": {
+      "audioRec": "/recordings/old/lt/circuit.mp3",
+      "path": "/models/old/circuit.glb"
+    },
+    "en": {
+      "audioRec": "/recordings/old/en/circuit.mp3",
+      "path": "/models/old/circuit.glb"
+    }
+  },
+  "model": {
+    "pattern": "/patterns/old/circuit.patt",
+    "pos": {
+      "x": -0.5,
+      "y": 0,
+      "z": 0
+    },
+    "rotAR": {
+      "x": -1.57,
+      "y": 3.14,
+      "z": 3.14
+    },
+    "rotNoAR": {
+      "x": -1.57,
+      "y": 3.14,
+      "z": 3.14
+    },
+    "scale": 30
+  }
+}

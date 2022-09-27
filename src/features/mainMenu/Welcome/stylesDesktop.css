@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+  .main-menu .welcome {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .main-menu .image {
+    max-height: 600px;
+  }
+
+  .main-menu .welcome-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-menu .header {
+    text-align: right;
+    color: white;
+    font-size: 131px;
+    font-weight: 800;
+    line-height: 106px;
+    margin-bottom: 14px;
+  }
+
+  .main-menu .subheader {
+    text-align: right;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 37px;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  .main-menu .small {
+    font-size: 78px;
+  }
+}

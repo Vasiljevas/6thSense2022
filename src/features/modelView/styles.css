@@ -1,0 +1,44 @@
+#model-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0, 0, 0, 0;
+  padding: 0, 0, 0, 0;
+  overflow: hidden;
+}
+
+@media screen and (orientation: portrait) {
+  #model-view.background {
+    background-image: url("../../assets/modelViewBackgroundPortrait.png");
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  #model-view.background {
+    background-image: url("../../assets/modelViewBackgroundLandscape.png");
+    background-size: 100% 100%;
+  }
+}
+
+.model-view {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 80% 20%;
+  flex-direction: column-reverse;
+  overflow: hidden;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.model-view a {
+  text-decoration: none;
+  color: #faccbf;
+}

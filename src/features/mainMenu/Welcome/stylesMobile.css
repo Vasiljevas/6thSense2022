@@ -1,0 +1,45 @@
+@media (max-width: 767px) {
+  .main-menu .welcome {
+    padding: 20% 26px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .main-menu .welcome-text {
+    z-index: 100;
+  }
+
+  .main-menu .header {
+    text-align: right;
+    color: white;
+    font-size: 57px;
+    font-weight: 800;
+    line-height: 57px;
+    margin-bottom: 20px;
+  }
+
+  .main-menu .subheader {
+    text-align: right;
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .main-menu .image {
+    position: absolute;
+    z-index: 0;
+    top: -5px;
+    left: -25px;
+    height: 861px;
+    max-height: 95vh;
+  }
+
+  .main-menu .small {
+    font-size: 36px;
+  }
+}

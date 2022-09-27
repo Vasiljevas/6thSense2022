@@ -1,0 +1,56 @@
+{
+  "info": {
+    "name": "BIOIT-NAME",
+    "desc": "BIOIT-DESC",
+    "descSimplified": "BIOIT-DESC-SIMPLIFIED",
+    "extra": {
+      "1": {
+        "name": "BIOIT-1-NAME",
+        "desc": "BIOIT-1-DESC"
+      },
+      "2": {
+        "name": "BIOIT-2-NAME",
+        "desc": "BIOIT-2-DESC"
+      },
+      "3": {
+        "name": "BIOIT-3-NAME",
+        "desc": "BIOIT-3-DESC"
+      },
+      "4": {
+        "name": "BIOIT-4-NAME",
+        "desc": "BIOIT-4-DESC"
+      },
+      "5": {
+        "name": "BIOIT-5-NAME",
+        "desc": "BIOIT-5-DESC"
+      }
+    },
+    "lt": {
+      "audioRec": "/recordings/lt/bioit.mp3",
+      "path": "/models/lt/bioit.glb"
+    },
+    "en": {
+      "audioRec": "/recordings/en/bioit.mp3",
+      "path": "/models/en/bioit.glb"
+    }
+  },
+  "model": {
+    "pattern": "/patterns/bioit.patt",
+    "pos": {
+      "x": 0,
+      "y": 0.25,
+      "z": 0
+    },
+    "rotAR": {
+      "x": -1.57,
+      "y": -1.57,
+      "z": 0
+    },
+    "rotNoAR": {
+      "x": 0,
+      "y": -1.57,
+      "z": 0
+    },
+    "scale": 0.4
+  }
+}

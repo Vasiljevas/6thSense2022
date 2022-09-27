@@ -1,0 +1,40 @@
+.main-menu-wrapper {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.main-menu-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (orientation: portrait) {
+  .main-menu {
+    background-image: url("../../assets/mainMenuBackgroundPortrait-2.png");
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .main-menu {
+    background-image: url("../../assets/mainMenuBackgroundLandscape-3.png");
+    background-size: 100% 100%;
+  }
+}
+
+.main-menu .color {
+  color: #b3e0F5; /* #fccec0 */
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: #b3e0F5; /* #faccbf */
+}

@@ -1,0 +1,35 @@
+{
+  "info": {
+    "name": "BIOBRICK-NAME",
+    "desc": "BIOBRICK-DESC",
+    "extra": {},
+    "lt": {
+      "audioRec": "/recordings/old/lt/biobrick.mp3",
+      "path": "/models/old/lego.glb"
+    },
+    "en": {
+      "audioRec": "/recordings/old/en/biobrick.mp3",
+      "path": "/models/old/lego.glb"
+    }
+  },
+  "model": {
+    "pattern": "/patterns/old/lego.patt",
+    "pos": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0
+    },
+    "rotAR": {
+      "x": 0,
+      "y": -1.6,
+      "z": 0
+    },
+    "rotNoAR": {
+      "x": 0,
+      "y": -1.6,
+      "z": 0
+    },
+    "scale": 0.7,
+    "looponce": true
+  }
+}

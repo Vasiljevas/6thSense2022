@@ -1,0 +1,56 @@
+{
+  "info": {
+    "name": "CRISPR-NAME",
+    "desc": "CRISPR-DESC",
+    "descSimplified": "CRISPR-DESC-SIMPLIFIED",
+    "extra": {
+      "1": {
+        "name": "CRISPR-1-NAME",
+        "desc": "CRISPR-1-DESC"
+      },
+      "2": {
+        "name": "CRISPR-2-NAME",
+        "desc": "CRISPR-2-DESC"
+      },
+      "3": {
+        "name": "CRISPR-3-NAME",
+        "desc": "CRISPR-3-DESC"
+      },
+      "4": {
+        "name": "CRISPR-4-NAME",
+        "desc": "CRISPR-4-DESC"
+      },
+      "5": {
+        "name": "CRISPR-5-NAME",
+        "desc": "CRISPR-5-DESC"
+      }
+    },
+    "lt": {
+      "audioRec": "/recordings/lt/crispr.mp3",
+      "path": "/models/lt/crispr.glb"
+    },
+    "en": {
+      "audioRec": "/recordings/en/crispr.mp3",
+      "path": "/models/en/crispr.glb"
+    }
+  },
+  "model": {
+    "pattern": "/patterns/crispr.patt",
+    "pos": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "rotAR": {
+      "x": -1.57,
+      "y": -1.57,
+      "z": 0
+    },
+    "rotNoAR": {
+      "x": 0,
+      "y": -1.57,
+      "z": 0
+    },
+    "scale": 0.025
+  }
+}

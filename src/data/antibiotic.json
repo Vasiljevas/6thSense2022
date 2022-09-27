@@ -1,0 +1,60 @@
+{
+  "info": {
+    "name": "ANTIBIOTIC-NAME",
+    "desc": "ANTIBIOTIC-DESC",
+    "descSimplified": "ANTIBIOTIC-DESC-SIMPLIFIED",
+    "extra": {
+      "1": {
+        "name": "ANTIBIOTIC-1-NAME",
+        "desc": "ANTIBIOTIC-1-DESC"
+      },
+      "2": {
+        "name": "ANTIBIOTIC-2-NAME",
+        "desc": "ANTIBIOTIC-2-DESC"
+      },
+      "3": {
+        "name": "ANTIBIOTIC-3-NAME",
+        "desc": "ANTIBIOTIC-3-DESC"
+      },
+      "4": {
+        "name": "ANTIBIOTIC-4-NAME",
+        "desc": "ANTIBIOTIC-4-DESC"
+      },
+      "5": {
+        "name": "ANTIBIOTIC-5-NAME",
+        "desc": "ANTIBIOTIC-5-DESC"
+      },
+      "6": {
+        "name": "ANTIBIOTIC-6-NAME",
+        "desc": "ANTIBIOTIC-6-DESC"
+      }
+    },
+    "lt": {
+      "audioRec": "/recordings/lt/antibiotic.mp3",
+      "path": "/models/lt/antibiotic.glb"
+    },
+    "en": {
+      "audioRec": "/recordings/en/antibiotic.mp3",
+      "path": "/models/en/antibiotic.glb"
+    }
+  },
+  "model": {
+    "pattern": "/patterns/antibiotic.patt",
+    "pos": {
+      "x": -0.2,
+      "y": 0,
+      "z": 0
+    },
+    "rotAR": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotNoAR": {
+      "x": 1.57,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 2
+  }
+}

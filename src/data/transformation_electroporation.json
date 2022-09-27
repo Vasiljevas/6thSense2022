@@ -1,0 +1,34 @@
+{
+    "info": {
+      "name": "TRANSFORMATION-ELECTROPORATION-NAME-1",
+      "desc": "TRANSFORMATION-ELECTROPORATION-DESC-1",
+      "descSimplified": "TRANSFORMATION-ELECTROPORATION-DESC-1-SIMPLIFIED",
+      "extra": {},
+      "lt": {
+        "audioRec": "/recordings/lt/electro-lt.mp3",
+        "path": "/models/lt/transformation_electroporation.glb"
+      },
+      "en": {
+        "audioRec": "/recordings/en/electro-en.mp3",
+        "path": "/models/en/transformation_electroporation_EN.glb"
+      }
+    },
+    "model": {
+      "pos": {
+        "x": 0,
+        "y": 0.5,
+        "z": 0
+      }, 
+      "rotAR": {
+        "x": -1.57,
+        "y": 0,
+        "z": 0
+      },
+      "rotNoAR": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1.25
+    }
+  }

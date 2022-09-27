@@ -1,0 +1,60 @@
+{
+  "info": {
+    "name": "VIRUS-NAME",
+    "desc": "VIRUS-DESC",
+    "descSimplified": "VIRUS-DESC-SIMPLIFIED",
+    "extra": {
+      "1": {
+        "name": "VIRUS-1-NAME",
+        "desc": "VIRUS-1-DESC"
+      },
+      "2": {
+        "name": "VIRUS-2-NAME",
+        "desc": "VIRUS-2-DESC"
+      },
+      "3": {
+        "name": "VIRUS-3-NAME",
+        "desc": "VIRUS-3-DESC"
+      },
+      "4": {
+        "name": "VIRUS-4-NAME",
+        "desc": "VIRUS-4-DESC"
+      },
+      "5": {
+        "name": "VIRUS-5-NAME",
+        "desc": "VIRUS-5-DESC"
+      },
+      "6": {
+        "name": "VIRUS-6-NAME",
+        "desc": "VIRUS-6-DESC"
+      }
+    },
+    "lt": {
+      "audioRec": "/recordings/lt/virus.mp3",
+      "path": "/models/lt/virus.glb"
+    },
+    "en": {
+      "audioRec": "/recordings/en/virus.mp3",
+      "path": "/models/en/virus.glb"
+    }
+  },
+  "model": {
+    "pattern": "/patterns/virus.patt",
+    "pos": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "rotAR": {
+      "x": -1.57,
+      "y": 0.8,
+      "z": 0
+    },
+    "rotNoAR": {
+      "x": 0,
+      "y": 0.8,
+      "z": 0
+    },
+    "scale": 1.25
+  }
+}

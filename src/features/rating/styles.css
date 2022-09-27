@@ -1,0 +1,43 @@
+.rate-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.btn-star {
+  min-width: 50px;
+}
+
+.btn.btn-star svg {
+  height: auto;
+  width: 100%;
+}
+
+.rate-wrapper .stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.rate-wrapper .submit-button {
+  cursor: pointer;
+  outline: none;
+  width: 229px;
+  border-radius: 15px;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 15px 15px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  font-weight: 600;
+}

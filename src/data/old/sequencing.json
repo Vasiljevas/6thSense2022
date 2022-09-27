@@ -1,0 +1,34 @@
+{
+  "info": {
+    "name": "SEQUENCING-NAME",
+    "desc": "SEQUENCING-DESC",
+    "extra": {},
+    "lt": {
+      "audioRec": "/recordings/old/lt/sequencing.mp3",
+      "path": "/models/old/sekoskaita.glb"
+    },
+    "en": {
+      "audioRec": "/recordings/old/en/sequencing.mp3",
+      "path": "/models/old/sekoskaita.glb"
+    }
+  },
+  "model": {
+    "pattern": "/patterns/old/sequencing.patt",
+    "pos": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "rotAR": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotNoAR": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 0.2
+  }
+}
