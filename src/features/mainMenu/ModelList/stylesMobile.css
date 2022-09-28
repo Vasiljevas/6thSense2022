@@ -1,7 +1,6 @@
 @media (max-width: 767px) {
   .main-menu .model-list-wrapper {
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
