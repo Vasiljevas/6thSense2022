@@ -34,7 +34,8 @@ import orangeInfo from "./icons/orangeInfo.svg";
 import megaphone from "./megaphone1.svg";
 import text from "./text1.svg";
 import bigInfo from "./bigInfo1.svg";
-import models from "./icons/3dModels.png";
+import modelsEn from "./icons/3dModels.png";
+import modelsLt from "./icons/3dModeliai.png";
 import orangeMenu from "./icons/orangeMenu.svg";
 import mainMenuImage from "./intro.png";
 import checkMarkChecked from "./icons/checkMarkChecked.svg";
@@ -78,7 +79,8 @@ export {
   megaphone,
   bigInfo,
   text,
-  models,
+  modelsEn,
+  modelsLt,
   orangeMenu,
   mainMenuImage,
   checkMark,

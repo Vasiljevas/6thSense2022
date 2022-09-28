@@ -1,11 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { FormattedMessage } from "react-intl";
-import { cameraNoBackground, orangeMenu, models } from "../../../../assets";
+import {
+  cameraNoBackground,
+  orangeMenu,
+  modelsEn,
+  modelsLt,
+} from "../../../../assets";
+import locales from "../../../../enums/locales.json";
 import ScreenWrapper from "../ScreenWrapper";
 
 const Screen = (props) => {
-  const { isOpenDyslexicActive } = props;
+  const { isOpenDyslexicActive, locale } = props;
   return (
     <ScreenWrapper
       title="FAQ-4-TITLE"
@@ -22,7 +28,10 @@ const Screen = (props) => {
             ),
             models: () => (
               <span className="text-icon long">
-                <img src={models} alt="" />
+                <img
+                  src={locales.LT === locale && "LT" ? modelsLt : modelsEn}
+                  alt=""
+                />
               </span>
             ),
             camera: () => (
@@ -42,4 +51,5 @@ export default Screen;
 
 Screen.propTypes = {
   isOpenDyslexicActive: PropTypes.bool.isRequired,
+  locale: PropTypes.bool.isRequired,
 };

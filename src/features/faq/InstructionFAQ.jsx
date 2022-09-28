@@ -7,19 +7,20 @@ import { Screen1, Screen2, Screen3, Screen4, Screen5 } from "./screens";
 
 import "./styles.css";
 
-const Container = ({ isOpenDyslexicActive }) => (
+const Container = ({ isOpenDyslexicActive, locale }) => (
   <div className={clsx("faq", isOpenDyslexicActive && "open-dyslexic")}>
     <PaginationHandler>
       <Screen1 isOpenDyslexicActive={isOpenDyslexicActive} />
       <Screen2 isOpenDyslexicActive={isOpenDyslexicActive} />
       <Screen3 isOpenDyslexicActive={isOpenDyslexicActive} />
-      <Screen4 isOpenDyslexicActive={isOpenDyslexicActive} />
+      <Screen4 isOpenDyslexicActive={isOpenDyslexicActive} locale={locale} />
       <Screen5 isOpenDyslexicActive={isOpenDyslexicActive} />
     </PaginationHandler>
   </div>
 );
 
-const mapStateToProps = ({ isOpenDyslexicActive }) => ({
+const mapStateToProps = ({ locale, isOpenDyslexicActive }) => ({
+  locale,
   isOpenDyslexicActive,
 });
 
@@ -27,4 +28,5 @@ export default connect(mapStateToProps)(Container);
 
 Container.propTypes = {
   isOpenDyslexicActive: PropTypes.bool.isRequired,
+  locale: PropTypes.bool.isRequired,
 };
