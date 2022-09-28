@@ -5,12 +5,12 @@
     "descSimplified": "GFP-DESC-1-SIMPLIFIED",
     "extra": {},
     "lt": {
-      "audioRec": "recordings/lt/gfp-lt.mp3",
-      "path": "models/lt/GFP_glow_LT_two.glb"
+      "audioRec": "/recordings/lt/gfp-lt.mp3",
+      "path": "/models/lt/GFP_glow_LT_two.glb"
     },
     "en": {
-      "audioRec": "recordings/en/gfp-en.mp3",
-      "path": "models/en/GFP_glow_EN_two.glb"
+      "audioRec": "/recordings/en/gfp-en.mp3",
+      "path": "/models/en/GFP_glow_EN_two.glb"
     }
   },
   "model": {

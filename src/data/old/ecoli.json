@@ -4,16 +4,16 @@
     "desc": "ECOLI-DESC",
     "extra": {},
     "lt": {
-      "audioRec": "recordings/old/lt/modelOrg.mp3",
-      "path": "models/old/ecoli.glb"
+      "audioRec": "/recordings/old/lt/modelOrg.mp3",
+      "path": "/models/old/ecoli.glb"
     },
     "en": {
-      "audioRec": "recordings/old/en/modelOrg.mp3",
-      "path": "models/old/ecoli.glb"
+      "audioRec": "/recordings/old/en/modelOrg.mp3",
+      "path": "/models/old/ecoli.glb"
     }
   },
   "model": {
-    "pattern": "patterns/old/ecoli.patt",
+    "pattern": "/patterns/old/ecoli.patt",
     "pos": {
       "x": -0.2,
       "y": -0.2,

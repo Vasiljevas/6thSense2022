@@ -5,12 +5,12 @@
     "descSimplified": "TRANSFORMATION-DESC-SIMPLIFIED",
     "extra": {},
     "lt": {
-      "audioRec": "recordings/lt/heatshock-lt.mp3",
-      "path": "models/lt/transformation_heat.glb"
+      "audioRec": "/recordings/lt/heatshock-lt.mp3",
+      "path": "/models/lt/transformation_heat.glb"
     },
     "en": {
-      "audioRec": "recordings/en/heatshock-en.mp3",
-      "path": "models/en/transformation_heat_EN.glb"
+      "audioRec": "/recordings/en/heatshock-en.mp3",
+      "path": "/models/en/transformation_heat_EN.glb"
     }
   },
   "model": {

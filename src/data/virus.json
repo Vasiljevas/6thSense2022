@@ -30,16 +30,16 @@
       }
     },
     "lt": {
-      "audioRec": "recordings/lt/virus.mp3",
-      "path": "models/lt/virus.glb"
+      "audioRec": "/recordings/lt/virus.mp3",
+      "path": "/models/lt/virus.glb"
     },
     "en": {
-      "audioRec": "recordings/en/virus.mp3",
-      "path": "models/en/virus.glb"
+      "audioRec": "/recordings/en/virus.mp3",
+      "path": "/models/en/virus.glb"
     }
   },
   "model": {
-    "pattern": "patterns/virus.patt",
+    "pattern": "/patterns/virus.patt",
     "pos": {
       "x": 0,
       "y": 0.5,

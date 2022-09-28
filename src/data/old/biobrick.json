@@ -4,16 +4,16 @@
     "desc": "BIOBRICK-DESC",
     "extra": {},
     "lt": {
-      "audioRec": "recordings/old/lt/biobrick.mp3",
-      "path": "models/old/lego.glb"
+      "audioRec": "/recordings/old/lt/biobrick.mp3",
+      "path": "/models/old/lego.glb"
     },
     "en": {
-      "audioRec": "recordings/old/en/biobrick.mp3",
-      "path": "models/old/lego.glb"
+      "audioRec": "/recordings/old/en/biobrick.mp3",
+      "path": "/models/old/lego.glb"
     }
   },
   "model": {
-    "pattern": "patterns/old/lego.patt",
+    "pattern": "/patterns/old/lego.patt",
     "pos": {
       "x": 0,
       "y": 0.1,

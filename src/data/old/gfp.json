@@ -4,16 +4,16 @@
     "desc": "GFP-DESC",
     "extra": {},
     "lt": {
-      "audioRec": "recordings/old/lt/gfp.mp3",
-      "path": "models/old/gfp.glb"
+      "audioRec": "/recordings/old/lt/gfp.mp3",
+      "path": "/models/old/gfp.glb"
     },
     "en": {
-      "audioRec": "recordings/old/en/gfp.mp3",
-      "path": "models/old/gfp.glb"
+      "audioRec": "/recordings/old/en/gfp.mp3",
+      "path": "/models/old/gfp.glb"
     }
   },
   "model": {
-    "pattern": "patterns/old/gfp.patt",
+    "pattern": "/patterns/old/gfp.patt",
     "pos": {
       "x": 0,
       "y": 0.75,

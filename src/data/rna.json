@@ -14,16 +14,16 @@
       }
     },
     "lt": {
-      "audioRec": "recordings/lt/RNA.mp3",
-      "path": "models/lt/RNA.glb"
+      "audioRec": "/recordings/lt/RNA.mp3",
+      "path": "/models/lt/RNA.glb"
     },
     "en": {
-      "audioRec": "recordings/en/RNA.mp3",
-      "path": "models/en/RNA.glb"
+      "audioRec": "/recordings/en/RNA.mp3",
+      "path": "/models/en/RNA.glb"
     }
   },
   "model": {
-    "pattern": "patterns/RNA.patt",
+    "pattern": "/patterns/RNA.patt",
     "pos": {
       "x": -0.1,
       "y": 0.4,

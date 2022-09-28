@@ -25,16 +25,16 @@
       }
     },
     "lt": {
-      "audioRec": "recordings/lt/GMO.mp3",
-      "path": "models/lt/GMO.glb"
+      "audioRec": "/recordings/lt/GMO.mp3",
+      "path": "/models/lt/GMO.glb"
     },
     "en": {
-      "audioRec": "recordings/en/GMO.mp3",
-      "path": "models/en/GMO.glb"
+      "audioRec": "/recordings/en/GMO.mp3",
+      "path": "/models/en/GMO.glb"
     }
   },
   "model": {
-    "pattern": "patterns/old/GMO.patt",
+    "pattern": "/patterns/old/GMO.patt",
     "pos": {
       "x": -0.3,
       "y": 0.75,
