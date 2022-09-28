@@ -4,16 +4,16 @@
     "desc": "CIRCUIT-DESC",
     "extra": {},
     "lt": {
-      "audioRec": "/recordings/old/lt/circuit.mp3",
-      "path": "/models/old/circuit.glb"
+      "audioRec": "recordings/old/lt/circuit.mp3",
+      "path": "models/old/circuit.glb"
     },
     "en": {
-      "audioRec": "/recordings/old/en/circuit.mp3",
-      "path": "/models/old/circuit.glb"
+      "audioRec": "recordings/old/en/circuit.mp3",
+      "path": "models/old/circuit.glb"
     }
   },
   "model": {
-    "pattern": "/patterns/old/circuit.patt",
+    "pattern": "patterns/old/circuit.patt",
     "pos": {
       "x": -0.5,
       "y": 0,

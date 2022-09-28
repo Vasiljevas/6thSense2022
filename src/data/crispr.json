@@ -26,16 +26,16 @@
       }
     },
     "lt": {
-      "audioRec": "/recordings/lt/crispr.mp3",
-      "path": "/models/lt/crispr.glb"
+      "audioRec": "recordings/lt/crispr.mp3",
+      "path": "models/lt/crispr.glb"
     },
     "en": {
-      "audioRec": "/recordings/en/crispr.mp3",
-      "path": "/models/en/crispr.glb"
+      "audioRec": "recordings/en/crispr.mp3",
+      "path": "models/en/crispr.glb"
     }
   },
   "model": {
-    "pattern": "/patterns/crispr.patt",
+    "pattern": "patterns/crispr.patt",
     "pos": {
       "x": 0,
       "y": 0.5,

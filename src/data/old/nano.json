@@ -4,16 +4,16 @@
     "desc": "NANO-DESC",
     "extra": {},
     "lt": {
-      "audioRec": "/recordings/old/lt/bacteriophage.mp3",
-      "path": "/models/old/bacteriophage.glb"
+      "audioRec": "recordings/old/lt/bacteriophage.mp3",
+      "path": "models/old/bacteriophage.glb"
     },
     "en": {
-      "audioRec": "/recordings/old/en/bacteriophage.mp3",
-      "path": "/models/old/bacteriophage.glb"
+      "audioRec": "recordings/old/en/bacteriophage.mp3",
+      "path": "models/old/bacteriophage.glb"
     }
   },
   "model": {
-    "pattern": "/patterns/old/bacteriophage.patt",
+    "pattern": "patterns/old/bacteriophage.patt",
     "pos": {
       "x": 0,
       "y": 0.4,

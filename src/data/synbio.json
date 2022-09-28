@@ -26,16 +26,16 @@
       }
     },
     "lt": {
-      "audioRec": "/recordings/lt/synbio.mp3",
-      "path": "/models/lt/synbio.glb"
+      "audioRec": "recordings/lt/synbio.mp3",
+      "path": "models/lt/synbio.glb"
     },
     "en": {
-      "audioRec": "/recordings/en/synbio.mp3",
-      "path": "/models/en/synbio.glb"
+      "audioRec": "recordings/en/synbio.mp3",
+      "path": "models/en/synbio.glb"
     }
   },
   "model": {
-    "pattern": "/patterns/synbio.patt",
+    "pattern": "patterns/synbio.patt",
     "pos": {
       "x": -1,
       "y": 0.4,

@@ -22,16 +22,16 @@
       }
     },
     "lt": {
-      "audioRec": "/recordings/lt/translation.mp3",
-      "path": "/models/lt/translation.glb"
+      "audioRec": "recordings/lt/translation.mp3",
+      "path": "models/lt/translation.glb"
     },
     "en": {
-      "audioRec": "/recordings/en/translation.mp3",
-      "path": "/models/en/translation.glb"
+      "audioRec": "recordings/en/translation.mp3",
+      "path": "models/en/translation.glb"
     }
   },
   "model": {
-    "pattern": "/patterns/translation.patt",
+    "pattern": "patterns/translation.patt",
     "pos": {
       "x": 0,
       "y": 0.5,

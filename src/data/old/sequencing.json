@@ -4,16 +4,16 @@
     "desc": "SEQUENCING-DESC",
     "extra": {},
     "lt": {
-      "audioRec": "/recordings/old/lt/sequencing.mp3",
-      "path": "/models/old/sekoskaita.glb"
+      "audioRec": "recordings/old/lt/sequencing.mp3",
+      "path": "models/old/sekoskaita.glb"
     },
     "en": {
-      "audioRec": "/recordings/old/en/sequencing.mp3",
-      "path": "/models/old/sekoskaita.glb"
+      "audioRec": "recordings/old/en/sequencing.mp3",
+      "path": "models/old/sekoskaita.glb"
     }
   },
   "model": {
-    "pattern": "/patterns/old/sequencing.patt",
+    "pattern": "patterns/old/sequencing.patt",
     "pos": {
       "x": 0,
       "y": 1,

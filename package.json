@@ -1,6 +1,7 @@
 {
   "name": "arqr2021",
   "version": "0.1.0",
+  "homepage": "https://igem-vilnius-ar.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "5.11.9",

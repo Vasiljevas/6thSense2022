@@ -5,12 +5,12 @@
       "descSimplified": "TRANSFORMATION-ELECTROPORATION-DESC-1-SIMPLIFIED",
       "extra": {},
       "lt": {
-        "audioRec": "/recordings/lt/electro-lt.mp3",
-        "path": "/models/lt/transformation_electroporation.glb"
+        "audioRec": "recordings/lt/electro-lt.mp3",
+        "path": "models/lt/transformation_electroporation.glb"
       },
       "en": {
-        "audioRec": "/recordings/en/electro-en.mp3",
-        "path": "/models/en/transformation_electroporation_EN.glb"
+        "audioRec": "recordings/en/electro-en.mp3",
+        "path": "models/en/transformation_electroporation_EN.glb"
       }
     },
     "model": {

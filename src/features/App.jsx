@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { IntlProvider } from "react-intl";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PropTypes from "prop-types";
 import MainMenu from "./mainMenu";
 import ModelView from "./modelView";
@@ -25,7 +25,7 @@ const App = ({ locale, showCookieConsent, isGoogleAnalyticsActive }) => (
     messages={locale === locales.LT ? ltTranslation : enTranslation}
     defaultLocale={locales.LT}
   >
-    <Router>
+    <Router basename="/">
       {showCookieConsent && <Route path="/" component={CookieConsent} />}
       <Switch>
         <Route path="/" component={MainMenu} exact />

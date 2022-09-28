@@ -26,16 +26,16 @@
       }
     },
     "lt": {
-      "audioRec": "/recordings/lt/bioit.mp3",
-      "path": "/models/lt/bioit.glb"
+      "audioRec": "recordings/lt/bioit.mp3",
+      "path": "models/lt/bioit.glb"
     },
     "en": {
-      "audioRec": "/recordings/en/bioit.mp3",
-      "path": "/models/en/bioit.glb"
+      "audioRec": "recordings/en/bioit.mp3",
+      "path": "models/en/bioit.glb"
     }
   },
   "model": {
-    "pattern": "/patterns/bioit.patt",
+    "pattern": "patterns/bioit.patt",
     "pos": {
       "x": 0,
       "y": 0.25,

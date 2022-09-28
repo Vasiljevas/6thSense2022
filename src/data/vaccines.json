@@ -18,16 +18,16 @@
       }
     },
     "lt": {
-      "audioRec": "/recordings/lt/vaccines.mp3",
-      "path": "/models/lt/vaccines.glb"
+      "audioRec": "recordings/lt/vaccines.mp3",
+      "path": "models/lt/vaccines.glb"
     },
     "en": {
-      "audioRec": "/recordings/en/vaccines.mp3",
-      "path": "/models/en/vaccines.glb"
+      "audioRec": "recordings/en/vaccines.mp3",
+      "path": "models/en/vaccines.glb"
     }
   },
   "model": {
-    "pattern": "/patterns/vaccines.patt",
+    "pattern": "patterns/vaccines.patt",
     "pos": {
       "x": 0,
       "y": 0.5,
